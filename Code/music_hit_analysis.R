@@ -1,7 +1,8 @@
 # Music data analysis using Billboard Hot-100 and Spotify audio features
 # This script cleans the data, builds predictive models, and creates visuals
 # for the IJC437 and IJC445 coursework projects
-
+#installations
+install.packages(c("data.table", "tidyverse", "caret", "pROC", "randomForest"))
 # Clear everything from the environment to start fresh
 rm(list = ls())
 
